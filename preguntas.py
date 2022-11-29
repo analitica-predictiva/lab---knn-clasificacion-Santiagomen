@@ -1,8 +1,6 @@
 """
 Clasificación usando k-NN
 -----------------------------------------------------------------------------------------
-
-
 """
 import pandas as pd
 
@@ -30,7 +28,6 @@ def pregunta_01():
     # Importe KNeighborsClassifier de sklearn.neighbors
     from sklearn.neighbors import KNeighborsClassifier
     
-
     # Cree un un clasificador k-NN con 6 vecinos
     knn = KNeighborsClassifier(n_neighbors = 6)
 
